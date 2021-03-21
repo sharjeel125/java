@@ -629,6 +629,195 @@
 
 
 
+// Chapter no 12 to 14
+
+
+
+// var a=prompt("Enter ASCII of string or number");
+// if(a>=65 && a<=90)
+// {
+//     document.write("Uppercase letter");
+// }
+// else
+// if(a>=97 && a<=122)
+// {
+//     document.write("lowercase letter");
+// }
+// else
+// if(a>=48 && a<=57)
+// {
+//     document.write("number/digits");
+// }
+// else
+// {
+//     document.write("Invalid");
+// }
+
+
+// var a=prompt("Enter 1st integer");
+// var b=prompt("Enter 2nd integer");
+// if(a>b)
+// {
+//     document.write("larger value is: "+a);
+// }
+// else
+// if(a<b)
+// {
+//     document.write("larger value is: "+b);
+// }
+// else
+// if(a===b)
+// {
+//     document.write("Both integers are equal");
+// }
+// else
+// {
+//     document.write("invald");
+// }
+
+// var a=+prompt("Enter any integer");
+// if(a>=0)
+// {
+//     document.write("Positive Number ");
+// }
+// else
+// if(a<0)
+// {
+//     document.write("Negative Number");
+// }
+// else
+// {
+//     document.write("invald");
+// }
+
+// var a=prompt("Enter a character");
+// if(a==="a" || a==="A" || a==="e" || a==="E"|| a==="i" || a==="I" || a==="o" ||a==="O" || a==="u" || a==="U")
+// {
+//     document.write("Character is Vowel");
+// } 
+// else
+// {
+//     document.write("Character is consonant");
+// }
+
+
+// var pass="rafay123";
+// var pwd=prompt("Enter your password:");
+// if(pwd===pass)
+// {
+//     document.write("Correct! The password you entered matches the original password");
+// }
+// else 
+// {
+//     document.write("Incorrect Password"); 
+// }
+
+// var greeting;
+// var hour = +prompt("Enter hour");
+// if (hour < 18) 
+// {
+//     greeting = "Good day";
+//     document.write(greeting);
+// }
+// else
+// {
+//     greeting = "Good evening";
+//     document.write(greeting);
+// }
+
+
+// var a=+prompt("Type time in 24 hour formate without using space or special character");
+// if(a>=0100 && a<=2400)
+// {
+//     document.write("time is "+a+" o'clock");
+// }
+// else
+// {
+//     document.write("invalid input");
+// }
+
+
+                                                        //  CHAPTER:14 TO 16
+// 
+
+// var array=["","",""];
+// 
+
+// var myarray=[];
+// myarray[0]="";
+// myarray[1]="";
+// myarray[2]="";
+
+// 
+
+// var array=["a","b","c"];
+// 
+
+// var array=[2,4,8];
+// 
+
+// var a=[0,1];
+// 
+
+// // var a=[2,"ali",5,"zia"];
+// 
+
+// var edu=["1)SSC","2)HSC","3)BCS","4)BS","5)BCOM","6)MS","7)M.Phil.","8)PhD"];
+// document.write("Qualification"+"<br>"+edu[0]+"<br>"+edu[1]+"<br>"+edu[2]+"<br>"+edu[3]+"<br>"+edu[4]+"<br>"+edu[5]+"<br>"+edu[6]+"<br>"+edu[7]);
+
+// var n=["ali","zia","zain"];
+// var s=[300,350,425];
+// per1=s[0]*100/500;
+// per2=s[1]*100/500;
+// per3=s[2]*100/500;
+// document.write("score of "+n[0]+" is "+s[0] +".Percentage "+per1+"%");
+// document.write("<br>"+"score of "+n[01]+" is "+s[1]+".Percentage "+per2+"%");
+// document.write("<br>"+"score of "+n[2]+" is "+s[2]+".Percentage "+per3+"%");
+// 
+
+// var array=[1,3,5,4,2]
+// array.sort();
+// document.write(array);
+
+// var city=["karachi", "lahore", "islamabad", "quetta","peshawar"];
+// var s_city=[city[0],city[1],city[3]]
+// document.write("Cities List:"+"<br>"+city);
+// document.write("<br>"+"<br>"+"Selected Cities List:"+"<br>"+s_city);
+// 
+
+// var array=["this","is","my","cat"]
+// document.write("array:"+"<br>"+array);
+// document.write("<br>"+"<br>"+"String:"+"<br>"+array[0]+"&nbsp"+array[1]+"&nbsp"+array[2]+"&nbsp"+array[3]);
+
+
+// var arr=["monitor","printer","keyboard","mouse"];
+// document.write("Devices:\n"+arr);
+// c=arr.shift();
+// document.write("<br>"+"out: "+c );
+// c=arr.shift();
+// document.write("<br>"+"out: "+c);
+// c=arr.shift();
+// document.write("<br>"+"out: "+c);
+// c=arr.shift();
+// document.write("<br>"+"out: "+c);
+
+
+// var arr=["monitor","printer","keyboard","mouse"];
+// document.write("Devices:\n"+arr);
+// c=arr.pop();
+// document.write("<br>"+"out: "+c );
+// c=arr.pop();
+// document.write("<br>"+"out: "+c);
+// c=arr.pop();
+// document.write("<br>"+"out: "+c);
+// c=arr.pop();
+// document.write("<br>"+"out: "+c);
+
+
+// var a=["Apple" , "Samsung" , "Motorola" , "Nokia" , "Sony" , "Haier"];
+// document.write("Store Phone Manufacturers:"+"<br>"+a[0]+"<br>"+a[1]+"<br>"+a[2]+"<br>"+a[3]+"<br>"+a[4]+"<br>"+a[5]);
+
+
 
 
 
