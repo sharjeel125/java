@@ -818,9 +818,137 @@
 // document.write("Store Phone Manufacturers:"+"<br>"+a[0]+"<br>"+a[1]+"<br>"+a[2]+"<br>"+a[3]+"<br>"+a[4]+"<br>"+a[5]);
 
 
+                        // Chapter # 21 String methods              
+
+// var a = prompt("Enter Your First Name");
+// var b = prompt("Enter Your Last Name");
+// document.write(a+b)
 
 
 
+// var a = prompt('enter mobile')
+// var b = a.length
+// document.write("My favourite phone is:")
+// document.write( a + "<br>" )
+// document.write("Length of String:")
+// document.write(b)
+
+
+// var a = ("Pakistani")
+// document.write(a + '<br>')
+// var b = a.indexOf("n");
+// document.write(b)
+
+
+// var a = ("Hello World")
+// document.write(a + '<br>')
+// var b = a.lastIndexOf("l");
+// document.write(b)
+
+// var a = ("Pakistani")
+// document.write(a + '<br>')
+// var b = a.charAt(3);
+// document.write(b)
+
+// var afterReplacement = city.slice(0, city.indexOf("Hyder")) + "Islam" + city.slice(city.indexOf("Hyder") + 5)
+// document.write("<br> <br> <br>")
+// document.write("City: " + city)
+// document.write(  afterReplacement)
+
+// var message = "Ali and Sami are best friends. They play cricket and football together."
+// document.write("<br> <br> <br>")
+// document.write("Message: " + message + "<br>")
+// document.write("After Replacement: " + message.replace("and","&"))
+
+// const string = "472"
+// document.write("<br> <br> <br> Value:" + string + "<br> Type:string" )
+// const number = "472"
+// document.write("<br>"+ "Value:"+ (parseInt(number) + 1 )+"<br> Type:number")
+
+// var a = prompt('Enter Your Favourite Nut Below');
+// var b = a.toUpperCase()
+// document.write(b)
+
+
+// var a = prompt('Enter Your Scripting Language Below');
+// var b = a[0].toUpperCase() + a.slice(1).toLowerCase();
+// document.write(b)
+
+// var num =  3536;
+// var n = num.toString();
+// document.write(n)
+
+// var userName = prompt("Enter username")
+// var matchFound = 0
+// for (i = 0; i < userName.length; i++) {
+//     if (userName.charCodeAt(i) === 33 || userName.charCodeAt(i) === 44 || userName.charCodeAt(i) === 46 || userName.charCodeAt(i) === 64) {
+//         alert("Please enter a valid username")
+//         matchFound = 1
+//         break
+//     }
+// }
+//  var A = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var search = prompt("Enter item to search")
+// var lowerCase = search.toLowerCase()
+// var matchFound = 0
+// for (var i = 0; i < A.length; i++) {
+//     if (lowerCase === A[i]) {
+//         alert(search + "is available at index " + i + " of the bakery")
+//         matchFound = 1
+//         break
+//     }
+// }
+// if (matchFound !== 1) {
+//     alert("We are sorry. " + search + " is available in our bakery")
+// }
+// var pass = prompt("Enter password")
+// var matchFound = 0
+// if (pass.charCodeAt(0) >= 48 && pass.charCodeAt(0) <= 57) {
+//     alert("Password cannot begin with a number")
+// }
+// if (pass.length < 6) {
+//     alert("password must at least contain 6 characters")
+// }
+// for (var i = 0; i < pass.length; i++) {
+//     if (((pass.charCodeAt(i) >= 65 && pass.charCodeAt(i) <= 90) || (pass.charCodeAt(i) >= 97 && pass.charCodeAt(i) <= 122))) {
+//         matchFound = 1
+//         break
+//     }
+// }
+// if (matchFound !== 1) {
+//     alert("Password must contain alphabets")
+// }
+// matchFound = 0
+// for (i = 0; i < pass.length; i++) {
+//     if (pass.charCodeAt(i) >= 48 && pass.charCodeAt(i) <= 57) {
+//         matchFound = 1
+//         break
+//     }
+// }
+// if (matchFound !== 1) {
+//     alert("Password must contain numbers")
+// }
+// : var university = "University of Karachi"
+// document.write("<br> <br> <br>")
+// uni = university.split("")
+// for (var i = 0; i < uni.length; i++) {
+//     document.write(uni[i] + "<br>")
+ 
+//     var userInput = "Pakistan"
+// var lastChar = userInput.slice(userInput.length - 1)
+// document.write("<br> <br> <br>")
+// document.write("User Input: " + userInput)
+// document.write("<br> Last Character: " + lastChar)
+//  var text = "The quick brown fox jumps over the lazy dog"
+// var matchFound = 0
+// for (var i = 0; i < text.length; i++) {
+//     if (text.slice(i, i + 3) === "the") {
+//         matchFound++
+//     }
+// }
+// document.write("<br> <br> <br>")
+// document.write("Text:" + text)
+// document.write("<br> There are " + matchFound + " occurrence(s) of the word 'the'")
 
 
 
